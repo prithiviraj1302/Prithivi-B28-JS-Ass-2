@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="icon" href="https://img.apponic.com/205/113/e167ad717e055a70a0456bcbb5294e87.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <section>
+   <div class="login-box">
+    <form action="">
+        <h2>Login</h2>
+        <div class="input-box">
+            <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+            <input type="text" id="username"  
+            required>
+            <label for="">username</label>
+
+        </div>
+        <div class="input-box">
+            <span class="icon"><i class="fa-solid fa-lock"></i></span>
+            <input type="password" id="Password"  
+            required>
+            <label for="">Password</label>
+
+        </div>
+        <div class="remember-forgot">
+            <label for="">
+                <input type="checkbox" > Remember Me
+            </label>
+           
+             <a href="#" onclick="forg()">Forgot Password</a>
+        </div>
+        <button type="button" onclick="func()">Login</button>
+        <div class="register-link">
+            <p>Don't have an account?<a href="#">Register</a></p>
+        </div>
+    </form>
+ </div> 
+</section>
+
+    <script src="index.js"></script>
+
+
+</body>
+</html>
